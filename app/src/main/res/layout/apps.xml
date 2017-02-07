@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
 
-    <TextView
-        android:id="@+id/txtMain"
-        style="@style/Main"
-        android:layout_width="fill_parent"
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:text="@string/apps" />
+        android:layout_centerInParent="true">
 
-    <TextView
-        android:id="@+id/txtHelp"
-        style="@style/Help"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtMain"
-        android:gravity="center"
-        android:text="@string/main_help" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
+            <TextView
+                android:id="@+id/txtMain"
+                style="@style/Main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/apps" />
+
+            <TextView
+                android:id="@+id/txtHelp"
+                style="@style/Help"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMain"
+                android:layout_toLeftOf="@id/txtMain"
+                android:gravity="center"
+                android:text="@string/main_help" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
 </RelativeLayout>
