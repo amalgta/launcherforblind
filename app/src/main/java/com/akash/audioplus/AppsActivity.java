@@ -1,12 +1,11 @@
-package net.zaczek.launcherforblind;
-
+package com.akash.audioplus;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.zaczek.launcherforblind.activitysupport.AbstractArrayActivity;
-import net.zaczek.launcherforblind.listentries.AppListEntry;
-import net.zaczek.launcherforblind.listentries.ListEntry;
+import com.akash.audioplus.activitysupport.AbstractArrayActivity;
+import com.akash.audioplus.listentries.AppListEntry;
+import com.akash.audioplus.listentries.ListEntry;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;

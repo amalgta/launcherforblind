@@ -1,4 +1,4 @@
-package net.zaczek.launcherforblind;
+package com.akash.audioplus;
 
 import org.acra.*;
 import org.acra.annotation.*;

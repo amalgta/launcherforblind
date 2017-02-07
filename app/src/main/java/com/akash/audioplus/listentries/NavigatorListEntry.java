@@ -1,6 +1,6 @@
-package net.zaczek.launcherforblind.listentries;
+package com.akash.audioplus.listentries;
 
-import net.zaczek.launcherforblind.MyApplication;
+import com.akash.audioplus.MyApplication;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;

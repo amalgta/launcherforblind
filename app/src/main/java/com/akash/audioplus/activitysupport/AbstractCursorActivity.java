@@ -1,7 +1,7 @@
-package net.zaczek.launcherforblind.activitysupport;
+package com.akash.audioplus.activitysupport;
 
-import net.zaczek.launcherforblind.R;
-import net.zaczek.launcherforblind.listentries.ListEntry;
+import com.akash.audioplus.R;
+import com.akash.audioplus.listentries.ListEntry;
 import android.database.Cursor;
 import android.util.Log;
 

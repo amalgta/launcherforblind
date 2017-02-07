@@ -1,8 +1,8 @@
-package net.zaczek.launcherforblind;
+package com.akash.audioplus;
 
-import net.zaczek.launcherforblind.activitysupport.AbstractCursorActivity;
-import net.zaczek.launcherforblind.listentries.ListEntry;
-import net.zaczek.launcherforblind.listentries.MissedCallListEntry;
+import com.akash.audioplus.activitysupport.AbstractCursorActivity;
+import com.akash.audioplus.listentries.ListEntry;
+import com.akash.audioplus.listentries.MissedCallListEntry;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.CallLog;

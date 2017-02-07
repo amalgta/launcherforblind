@@ -1,6 +1,6 @@
-package net.zaczek.launcherforblind.activitysupport;
+package com.akash.audioplus.activitysupport;
 
-import net.zaczek.launcherforblind.listentries.ListEntry;
+import com.akash.audioplus.listentries.ListEntry;
 import android.util.Log;
 
 /*

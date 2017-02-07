@@ -1,4 +1,4 @@
-package net.zaczek.launcherforblind.listentries;
+package com.akash.audioplus.listentries;
 
 
 public class StaticListEntry extends AbstractListEntry {

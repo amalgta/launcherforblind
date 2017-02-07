@@ -1,7 +1,7 @@
-package net.zaczek.launcherforblind.listentries;
+package com.akash.audioplus.listentries;
 
-import net.zaczek.launcherforblind.Helper;
-import net.zaczek.launcherforblind.MyApplication;
+import com.akash.audioplus.Helper;
+import com.akash.audioplus.MyApplication;
 
 public class SMSListEntry extends AbstractListEntry {
 	String mNumber;

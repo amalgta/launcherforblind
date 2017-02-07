@@ -1,4 +1,4 @@
-package net.zaczek.launcherforblind;
+package com.akash.audioplus;
 
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;

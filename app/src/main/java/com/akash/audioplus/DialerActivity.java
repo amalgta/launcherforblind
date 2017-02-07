@@ -4,13 +4,12 @@
  * https://code.google.com/p/eyes-free/
  * */
 
-package net.zaczek.launcherforblind;
-
+package com.akash.audioplus;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.TextView;
-import net.zaczek.launcherforblind.activitysupport.AbstractActivity;
+import com.akash.audioplus.activitysupport.AbstractActivity;
 
 public class DialerActivity extends AbstractActivity {
 	private static final String TAG = "launcherforblind";

@@ -1,4 +1,4 @@
-package net.zaczek.launcherforblind.listentries;
+package com.akash.audioplus.listentries;
 
 public abstract class AbstractListEntry implements ListEntry {
 	private final String mLabel;

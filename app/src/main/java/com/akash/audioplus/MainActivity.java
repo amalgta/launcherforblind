@@ -1,11 +1,11 @@
-package net.zaczek.launcherforblind;
+package com.akash.audioplus;
 
-import net.zaczek.launcherforblind.activitysupport.AbstractArrayActivity;
-import net.zaczek.launcherforblind.listentries.BatteryListEntry;
-import net.zaczek.launcherforblind.listentries.ListEntry;
-import net.zaczek.launcherforblind.listentries.NavigatorListEntry;
-import net.zaczek.launcherforblind.listentries.StaticListEntry;
-import net.zaczek.launcherforblind.listentries.TimeListEntry;
+import com.akash.audioplus.activitysupport.AbstractArrayActivity;
+import com.akash.audioplus.listentries.BatteryListEntry;
+import com.akash.audioplus.listentries.ListEntry;
+import com.akash.audioplus.listentries.NavigatorListEntry;
+import com.akash.audioplus.listentries.StaticListEntry;
+import com.akash.audioplus.listentries.TimeListEntry;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;

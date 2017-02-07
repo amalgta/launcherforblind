@@ -1,8 +1,8 @@
-package net.zaczek.launcherforblind.activitysupport;
+package com.akash.audioplus.activitysupport;
 
 import java.util.HashMap;
 
-import net.zaczek.launcherforblind.MainActivity;
+import com.akash.audioplus.MainActivity;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;

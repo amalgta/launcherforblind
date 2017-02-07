@@ -1,7 +1,7 @@
-package net.zaczek.launcherforblind.listentries;
+package com.akash.audioplus.listentries;
 
-import net.zaczek.launcherforblind.MyApplication;
-import net.zaczek.launcherforblind.R;
+import com.akash.audioplus.MyApplication;
+import com.akash.audioplus.R;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.BatteryManager;

@@ -1,6 +1,5 @@
-package net.zaczek.launcherforblind;
-
-import net.zaczek.launcherforblind.activitysupport.AbstractActivity;
+package com.akash.audioplus;
+import com.akash.audioplus.activitysupport.AbstractActivity;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
