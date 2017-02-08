@@ -1,8 +1,8 @@
-package com.akash.audioplus.activitysupport;
+package com.akash.thirdeye.activitysupport;
 
 import java.util.HashMap;
 
-import com.akash.audioplus.MainActivity;
+import com.akash.thirdeye.MainActivity;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;

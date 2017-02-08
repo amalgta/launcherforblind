@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.akash.audioplus"
+    package="com.akash.thirdeye"
     android:versionCode="5"
     android:versionName="1.4">
 
@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.READ_SMS" />
 
     <application
-        android:name="com.akash.audioplus.MyApplication"
+        android:name="com.akash.thirdeye.MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"

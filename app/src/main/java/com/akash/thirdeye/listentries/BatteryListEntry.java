@@ -1,7 +1,7 @@
-package com.akash.audioplus.listentries;
+package com.akash.thirdeye.listentries;
 
-import com.akash.audioplus.MyApplication;
-import com.akash.audioplus.R;
+import com.akash.thirdeye.MyApplication;
+import com.akash.thirdeye.R;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.BatteryManager;

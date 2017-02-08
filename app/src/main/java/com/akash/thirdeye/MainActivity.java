@@ -1,11 +1,11 @@
-package com.akash.audioplus;
+package com.akash.thirdeye;
 
-import com.akash.audioplus.activitysupport.AbstractArrayActivity;
-import com.akash.audioplus.listentries.BatteryListEntry;
-import com.akash.audioplus.listentries.ListEntry;
-import com.akash.audioplus.listentries.NavigatorListEntry;
-import com.akash.audioplus.listentries.StaticListEntry;
-import com.akash.audioplus.listentries.TimeListEntry;
+import com.akash.thirdeye.activitysupport.AbstractArrayActivity;
+import com.akash.thirdeye.listentries.BatteryListEntry;
+import com.akash.thirdeye.listentries.ListEntry;
+import com.akash.thirdeye.listentries.NavigatorListEntry;
+import com.akash.thirdeye.listentries.StaticListEntry;
+import com.akash.thirdeye.listentries.TimeListEntry;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;

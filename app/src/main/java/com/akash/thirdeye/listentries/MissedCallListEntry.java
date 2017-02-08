@@ -1,4 +1,4 @@
-package com.akash.audioplus.listentries;
+package com.akash.thirdeye.listentries;
 
 public class MissedCallListEntry extends AbstractListEntry {
 	String mNumber;

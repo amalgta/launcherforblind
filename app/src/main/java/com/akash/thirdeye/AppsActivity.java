@@ -1,11 +1,11 @@
-package com.akash.audioplus;
+package com.akash.thirdeye;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.akash.audioplus.activitysupport.AbstractArrayActivity;
-import com.akash.audioplus.listentries.AppListEntry;
-import com.akash.audioplus.listentries.ListEntry;
+import com.akash.thirdeye.activitysupport.AbstractArrayActivity;
+import com.akash.thirdeye.listentries.AppListEntry;
+import com.akash.thirdeye.listentries.ListEntry;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;

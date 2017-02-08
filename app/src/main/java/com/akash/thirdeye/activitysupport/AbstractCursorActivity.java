@@ -1,7 +1,7 @@
-package com.akash.audioplus.activitysupport;
+package com.akash.thirdeye.activitysupport;
 
-import com.akash.audioplus.R;
-import com.akash.audioplus.listentries.ListEntry;
+import com.akash.thirdeye.R;
+import com.akash.thirdeye.listentries.ListEntry;
 import android.database.Cursor;
 import android.util.Log;
 

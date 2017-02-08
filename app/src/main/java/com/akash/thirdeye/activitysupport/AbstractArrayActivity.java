@@ -1,6 +1,6 @@
-package com.akash.audioplus.activitysupport;
+package com.akash.thirdeye.activitysupport;
 
-import com.akash.audioplus.listentries.ListEntry;
+import com.akash.thirdeye.listentries.ListEntry;
 import android.util.Log;
 
 /*

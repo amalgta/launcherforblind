@@ -1,4 +1,4 @@
-package com.akash.audioplus;
+package com.akash.thirdeye;
 
 import android.app.Application;
 import android.content.BroadcastReceiver;

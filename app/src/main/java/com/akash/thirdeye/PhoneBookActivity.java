@@ -1,8 +1,8 @@
-package com.akash.audioplus;
+package com.akash.thirdeye;
 
-import com.akash.audioplus.activitysupport.AbstractCursorActivity;
-import com.akash.audioplus.listentries.ContactListEntry;
-import com.akash.audioplus.listentries.ListEntry;
+import com.akash.thirdeye.activitysupport.AbstractCursorActivity;
+import com.akash.thirdeye.listentries.ContactListEntry;
+import com.akash.thirdeye.listentries.ListEntry;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.ContactsContract.CommonDataKinds.Phone;

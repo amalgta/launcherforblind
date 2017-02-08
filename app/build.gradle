@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.1"
 
     defaultConfig {
-        applicationId "com.akash.audioplus"
+        applicationId "com.akash.thirdeye"
         minSdkVersion 9
         targetSdkVersion 25
     }

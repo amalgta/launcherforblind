@@ -1,7 +1,7 @@
-package com.akash.audioplus.listentries;
+package com.akash.thirdeye.listentries;
 
-import com.akash.audioplus.Helper;
-import com.akash.audioplus.MyApplication;
+import com.akash.thirdeye.Helper;
+import com.akash.thirdeye.MyApplication;
 
 public class SMSListEntry extends AbstractListEntry {
 	String mNumber;

@@ -1,8 +1,8 @@
-package com.akash.audioplus;
+package com.akash.thirdeye;
 
-import com.akash.audioplus.activitysupport.AbstractCursorActivity;
-import com.akash.audioplus.listentries.ListEntry;
-import com.akash.audioplus.listentries.SMSListEntry;
+import com.akash.thirdeye.activitysupport.AbstractCursorActivity;
+import com.akash.thirdeye.listentries.ListEntry;
+import com.akash.thirdeye.listentries.SMSListEntry;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;

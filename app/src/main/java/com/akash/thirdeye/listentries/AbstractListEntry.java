@@ -1,4 +1,4 @@
-package com.akash.audioplus.listentries;
+package com.akash.thirdeye.listentries;
 
 public abstract class AbstractListEntry implements ListEntry {
 	private final String mLabel;

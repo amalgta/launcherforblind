@@ -1,6 +1,6 @@
-package com.akash.audioplus.listentries;
+package com.akash.thirdeye.listentries;
 
-import com.akash.audioplus.MyApplication;
+import com.akash.thirdeye.MyApplication;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ResolveInfo;
