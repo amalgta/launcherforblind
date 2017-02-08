@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.akash.thirdeye"
         minSdkVersion 9
-        targetSdkVersion 25
+        targetSdkVersion 22
     }
 
     buildTypes {

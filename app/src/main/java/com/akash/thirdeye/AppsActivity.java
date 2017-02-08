@@ -1,4 +1,5 @@
 package com.akash.thirdeye;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -6,6 +7,7 @@ import java.util.List;
 import com.akash.thirdeye.activitysupport.AbstractArrayActivity;
 import com.akash.thirdeye.listentries.AppListEntry;
 import com.akash.thirdeye.listentries.ListEntry;
+
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
@@ -16,45 +18,45 @@ import android.util.Log;
 import android.widget.TextView;
 
 public class AppsActivity extends AbstractArrayActivity {
-	private static final String TAG = "launcherforblind";
+    private static final String TAG = "launcherforblind";
 
-	private TextView txtMain;
+    private TextView txtMain;
 
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		Log.i(TAG, "onCreate");
-		setContentView(R.layout.apps);
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Log.i(TAG, "onCreate");
+        setContentView(R.layout.apps);
 
-		txtMain = (TextView) findViewById(R.id.txtMain);
-	}
+        txtMain = (TextView) findViewById(R.id.txtMain);
+    }
 
-	@Override
-	protected ListEntry[] getList() {
-		Intent homeIntent = new Intent(Intent.ACTION_MAIN, null);
-		homeIntent.addCategory(Intent.CATEGORY_LAUNCHER);
+    @Override
+    protected ListEntry[] getList() {
+        Intent homeIntent = new Intent(Intent.ACTION_MAIN, null);
+        homeIntent.addCategory(Intent.CATEGORY_LAUNCHER);
 
-		PackageManager pm = this.getPackageManager();
-		List<AppListEntry> result = new ArrayList<AppListEntry>();
+        PackageManager pm = this.getPackageManager();
+        List<AppListEntry> result = new ArrayList<AppListEntry>();
 
-		for (ResolveInfo info : pm.queryIntentActivities(homeIntent, 0)) {
-			final ActivityInfo appInfo = info.activityInfo;
-			if (!appInfo.packageName.equals("net.zaczek.launcherforblind")) {
-				String lb = info.loadLabel(pm).toString();
-				if (TextUtils.isEmpty(lb)) {
-					lb = info.activityInfo.name.toString();
-				}
-				result.add(new AppListEntry(lb, info));
-			}
-		}
+        for (ResolveInfo info : pm.queryIntentActivities(homeIntent, 0)) {
+            final ActivityInfo appInfo = info.activityInfo;
+            if (!appInfo.packageName.equals("com.akash.thirdeye")) {
+                String lb = info.loadLabel(pm).toString();
+                if (TextUtils.isEmpty(lb)) {
+                    lb = info.activityInfo.name.toString();
+                }
+                result.add(new AppListEntry(lb, info));
+            }
+        }
 
-		Collections.sort(result);
-		
-		return result.toArray(new ListEntry[0]);
-	}
+        Collections.sort(result);
 
-	@Override
-	protected void giveFeedback(String label) {
-		txtMain.setText(label);
-	}
+        return result.toArray(new ListEntry[0]);
+    }
+
+    @Override
+    protected void giveFeedback(String label) {
+        txtMain.setText(label);
+    }
 }

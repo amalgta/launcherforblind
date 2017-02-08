@@ -1,13 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.akash.thirdeye"
-    android:versionCode="5"
-    android:versionName="1.4">
-
-    <uses-sdk
-        android:minSdkVersion="7"
-        android:targetSdkVersion="7" />
+    package="com.akash.thirdeye">
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />

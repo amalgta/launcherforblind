@@ -21,6 +21,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txtMain"
         android:gravity="center"
+        android:visibility="gone"
+
         android:text="@string/main_help" />
 
 </RelativeLayout>

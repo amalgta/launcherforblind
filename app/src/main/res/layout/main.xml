@@ -20,6 +20,8 @@
         style="@style/Help"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
+
         android:layout_below="@id/txtMain"
         android:gravity="center"
         android:text="@string/main_help" />
